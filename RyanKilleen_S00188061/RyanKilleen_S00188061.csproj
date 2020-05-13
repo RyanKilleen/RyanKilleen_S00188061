@@ -107,12 +107,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UnitTestProject1\UnitTestProject1.csproj">
-      <Project>{7bc3c8d1-2e5c-4d1b-94cc-16f8f9c9948c}</Project>
-      <Name>UnitTestProject1</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Phone Images\android.png" />
   </ItemGroup>
   <ItemGroup>
