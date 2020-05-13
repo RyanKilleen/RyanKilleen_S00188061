@@ -20,9 +20,9 @@ namespace RyanKilleen_S00188061
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        string[] Phone = new string[] { "Samsung S20, 500 Android" };
+        string[] phone = new string[] { "iPhone 11 600 IOS "};
+
+
     }
 }

@@ -14,6 +14,7 @@ namespace RyanKilleen_S00188061
         public String OperatingSystem { get; set; }
         public string OS_Image { get; set; }
         public string Phone_Image { get; set; }
+        public int ID { get; set; }
 
         public virtual List<Phone> Phones { get; set; }
 
