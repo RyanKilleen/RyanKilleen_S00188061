@@ -3,18 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace RyanKilleen_S00188061
 {
-    class Phone
+    public class Phone
     {
         public String Name { get; set; }
         public double Price { get; set; }
         public String OperatingSystem { get; set; }
         public string OS_Image { get; set; }
         public string Phone_Image { get; set; }
-
     }
+     public class phoneData : DbContext
+    {
+        public phoneData() : base("PhonePriceData"){ }
+
+        public DbSet<Phone> phones { get; set; }
+    }
+     
+
 
     public void IncreasePrice(double Price, long previousValue, long currentValue)
     {
